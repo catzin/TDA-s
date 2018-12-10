@@ -1,5 +1,6 @@
 #include"arbin.h"
 #include<stdio.h>
+#include<stdlib.h>
 
 Arbin vacio(void){
 
@@ -19,11 +20,11 @@ elem raiz(Arbin a){
 
 Arbin Cons(elem e, Arbin i, Arbin d){
 
-  Arbin t = (Arbin)malloc(sizeof(Arbin));
+  Arbin t = (Arbin)malloc(sizeof(struct a));
 
-  t -> r = r;
-  t -> i = i;
-  t -> d = d;
+  t -> raiz = e;
+  t -> izq = i;
+  t -> der = d;
 
   return t;
 

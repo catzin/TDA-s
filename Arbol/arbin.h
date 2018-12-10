@@ -11,6 +11,6 @@ typedef struct a{
 Arbin vacio(void);
 int Esvacio(Arbin);
 elem raiz(Arbin);
-Arbin Cons(elem,Arbin);
+Arbin Cons(elem,Arbin,Arbin);
 Arbin izq(Arbin);
 Arbin der(Arbin);
